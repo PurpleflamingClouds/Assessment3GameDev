@@ -1,0 +1,483 @@
+fileFormatVersion: 2
+guid: 4da1f5fb0f3052d40a904326ee9879f2
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3882498724428779375
+    second: GhostScaredState_0
+  - first:
+      213: -5374333039762626381
+    second: GhostScaredState_1
+  - first:
+      213: 1419973307358791439
+    second: GhostScaredState_2
+  - first:
+      213: -8432047910349698522
+    second: GhostScaredState_3
+  - first:
+      213: -686795524333678401
+    second: GhostScaredState_4
+  - first:
+      213: -1121177062290222806
+    second: GhostScaredState_5
+  - first:
+      213: 8264871994193721851
+    second: GhostScaredState_6
+  - first:
+      213: 5701695836307461172
+    second: GhostScaredState_7
+  - first:
+      213: -8444701416630835484
+    second: GhostScaredState_8
+  - first:
+      213: 6434117613101520943
+    second: GhostScaredState_9
+  - first:
+      213: 7328638212864445531
+    second: GhostScaredState_10
+  - first:
+      213: 6321478003996703486
+    second: GhostScaredState_11
+  - first:
+      213: 2231470767420839424
+    second: GhostScaredState_12
+  - first:
+      213: -8766226136196638636
+    second: GhostScaredState_13
+  - first:
+      213: -3465060312135647891
+    second: GhostScaredState_14
+  - first:
+      213: 7695621729004798158
+    second: GhostScaredState_15
+  - first:
+      213: 5833120249709104582
+    second: GhostScaredState_16
+  - first:
+      213: 102824087407333799
+    second: GhostScaredState_17
+  - first:
+      213: -4610011212478403402
+    second: GhostScaredState_18
+  - first:
+      213: 2737262636691192530
+    second: GhostScaredState_19
+  - first:
+      213: 2617625568235913312
+    second: GhostScaredState_20
+  - first:
+      213: -6542307687736366367
+    second: GhostScaredState_21
+  - first:
+      213: 1391378219998316334
+    second: GhostScaredState_22
+  - first:
+      213: -3001416684423123745
+    second: GhostScaredState_23
+  - first:
+      213: 6864068619635179331
+    second: GhostScaredState_24
+  - first:
+      213: 8647020206456963508
+    second: GhostScaredState_25
+  - first:
+      213: -8876609420318656749
+    second: GhostScaredState_26
+  - first:
+      213: -2641933514672563638
+    second: GhostScaredState_27
+  - first:
+      213: 4727505284457043059
+    second: GhostScaredState_28
+  - first:
+      213: -9126292523574096628
+    second: GhostScaredState_29
+  - first:
+      213: 3089139465539552923
+    second: GhostScaredState_30
+  - first:
+      213: 3843802134869578454
+    second: GhostScaredState_31
+  - first:
+      213: -5155945493466229823
+    second: GhostScaredState_32
+  - first:
+      213: 6722053923736783761
+    second: GhostScaredState_33
+  - first:
+      213: 7937742779155871627
+    second: GhostScaredState_34
+  - first:
+      213: 7636960778396934815
+    second: GhostScaredState_35
+  - first:
+      213: -4736565020343306821
+    second: GhostScaredState_36
+  - first:
+      213: -8780699257971385188
+    second: GhostScaredState_37
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: GhostScaredState_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc45a6918c34d97409c805e7591f3abd
+      internalID: -1611021428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GhostScaredState_1
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98907d7367fae5347b3e138cd2968501
+      internalID: 1393843453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GhostScaredState_2
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d93bb7a33621cfd4aa262b9df045a093
+      internalID: -1503703401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GhostScaredState_3
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0480e194f945e54186dd3094fbb80b5
+      internalID: 1239677505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GhostScaredState_4
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c79dfa16cbef6094c96fe12c8d679c2a
+      internalID: -1406190236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GhostScaredState_5
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 442ccbb8d36a1cf4793dc35c329afd18
+      internalID: 1230987545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GhostScaredState_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc734217ad0b24943aeb6dc51e13ddcd
+      internalID: -201429563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GhostScaredState_7
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2184197ebad160f44874a807d6c49bb9
+      internalID: 1678161496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GhostScaredState_8
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9fc423a907036db478b44ab7c32c21ad
+      internalID: 2023452002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GhostScaredState_9
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2e9bac43e66c94418f6178b0f84e417
+      internalID: 2023083005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GhostScaredState_10
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4831594d5daa4df40b78985e1fcfe89c
+      internalID: 1868246600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 0eb7dba6f7875614da306266ec2f1eb8
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      GhostScaredState_0: -1611021428
+      GhostScaredState_1: 1393843453
+      GhostScaredState_10: 1868246600
+      GhostScaredState_2: -1503703401
+      GhostScaredState_3: 1239677505
+      GhostScaredState_4: -1406190236
+      GhostScaredState_5: 1230987545
+      GhostScaredState_6: -201429563
+      GhostScaredState_7: 1678161496
+      GhostScaredState_8: 2023452002
+      GhostScaredState_9: 2023083005
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
