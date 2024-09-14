@@ -1,0 +1,582 @@
+fileFormatVersion: 2
+guid: fbf4358edc9808549931ccc6f9cddfbc
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5479364462607218311
+    second: GhostRecoveringState_0
+  - first:
+      213: 5228757957921192910
+    second: GhostRecoveringState_1
+  - first:
+      213: 2834960256710170453
+    second: GhostRecoveringState_2
+  - first:
+      213: 7333473534126196269
+    second: GhostRecoveringState_3
+  - first:
+      213: 1155338070609984746
+    second: GhostRecoveringState_4
+  - first:
+      213: -8236052522362016614
+    second: GhostRecoveringState_5
+  - first:
+      213: -7584018448275162718
+    second: GhostRecoveringState_6
+  - first:
+      213: -8289517617870313811
+    second: GhostRecoveringState_7
+  - first:
+      213: -8326826810566084716
+    second: GhostRecoveringState_8
+  - first:
+      213: 7288882382819214162
+    second: GhostRecoveringState_9
+  - first:
+      213: 4140239029973992111
+    second: GhostRecoveringState_10
+  - first:
+      213: -8368579859813345410
+    second: GhostRecoveringState_11
+  - first:
+      213: 9025782073897012062
+    second: GhostRecoveringState_12
+  - first:
+      213: 8470901038928084221
+    second: GhostRecoveringState_13
+  - first:
+      213: 7940129996970383256
+    second: GhostRecoveringState_14
+  - first:
+      213: -5373378377260085867
+    second: GhostRecoveringState_15
+  - first:
+      213: 8223597175078571527
+    second: GhostRecoveringState_16
+  - first:
+      213: 5973913129842782488
+    second: GhostRecoveringState_17
+  - first:
+      213: 8262494293401199303
+    second: GhostRecoveringState_18
+  - first:
+      213: 3287050815758380878
+    second: GhostRecoveringState_19
+  - first:
+      213: -1476332686127137973
+    second: GhostRecoveringState_20
+  - first:
+      213: 8628340537683747871
+    second: GhostRecoveringState_21
+  - first:
+      213: -1786341216739183562
+    second: GhostRecoveringState_22
+  - first:
+      213: -5513975869728609573
+    second: GhostRecoveringState_23
+  - first:
+      213: 8275331925533786864
+    second: GhostRecoveringState_24
+  - first:
+      213: 2402910059495544161
+    second: GhostRecoveringState_25
+  - first:
+      213: 3038307952962111999
+    second: GhostRecoveringState_26
+  - first:
+      213: 5520486001976500127
+    second: GhostRecoveringState_27
+  - first:
+      213: -3575203770535502243
+    second: GhostRecoveringState_28
+  - first:
+      213: 8728408239483671924
+    second: GhostRecoveringState_29
+  - first:
+      213: -8267424073860453144
+    second: GhostRecoveringState_30
+  - first:
+      213: -435513155129868702
+    second: GhostRecoveringState_31
+  - first:
+      213: 99476663050450034
+    second: GhostRecoveringState_32
+  - first:
+      213: 2443002241640367508
+    second: GhostRecoveringState_33
+  - first:
+      213: 5562470543495160169
+    second: GhostRecoveringState_34
+  - first:
+      213: 6135976194934171014
+    second: GhostRecoveringState_35
+  - first:
+      213: -2220102485602713944
+    second: GhostRecoveringState_36
+  - first:
+      213: 8599487545094726303
+    second: GhostRecoveringState_37
+  - first:
+      213: -8087753777661476621
+    second: GhostRecoveringState_38
+  - first:
+      213: -463679540286022145
+    second: GhostRecoveringState_39
+  - first:
+      213: 6843065506347890230
+    second: GhostRecoveringState_40
+  - first:
+      213: -5429240886042350718
+    second: GhostRecoveringState_41
+  - first:
+      213: -8277923064066151418
+    second: GhostRecoveringState_42
+  - first:
+      213: 3822557224734975833
+    second: GhostRecoveringState_43
+  - first:
+      213: -8461166847686736266
+    second: GhostRecoveringState_44
+  - first:
+      213: 5451926086815602000
+    second: GhostRecoveringState_45
+  - first:
+      213: 3199930410966649492
+    second: GhostRecoveringState_46
+  - first:
+      213: -5077608607368495493
+    second: GhostRecoveringState_47
+  - first:
+      213: -844237327247262532
+    second: GhostRecoveringState_48
+  - first:
+      213: -5516087242073987684
+    second: GhostRecoveringState_49
+  - first:
+      213: 6118859483272135421
+    second: GhostRecoveringState_50
+  - first:
+      213: 992783794528191097
+    second: GhostRecoveringState_51
+  - first:
+      213: 3314523435892236201
+    second: GhostRecoveringState_52
+  - first:
+      213: 8745694332132229236
+    second: GhostRecoveringState_53
+  - first:
+      213: 377641484254183440
+    second: GhostRecoveringState_54
+  - first:
+      213: -7583583249139473154
+    second: GhostRecoveringState_55
+  - first:
+      213: 6373501231122532765
+    second: GhostRecoveringState_56
+  - first:
+      213: -4322966335145143502
+    second: GhostRecoveringState_57
+  - first:
+      213: 590473859318865815
+    second: GhostRecoveringState_58
+  - first:
+      213: 7442468527752897423
+    second: GhostRecoveringState_59
+  - first:
+      213: -843426456355452853
+    second: GhostRecoveringState_60
+  - first:
+      213: 7455236770452442370
+    second: GhostRecoveringState_61
+  - first:
+      213: -8584643180622010603
+    second: GhostRecoveringState_62
+  - first:
+      213: 4421468390806478398
+    second: GhostRecoveringState_63
+  - first:
+      213: -7297616531431523210
+    second: GhostRecoveringState_64
+  - first:
+      213: -9170937721851052545
+    second: GhostRecoveringState_65
+  - first:
+      213: -6185131753948205267
+    second: GhostRecoveringState_66
+  - first:
+      213: -5859186437910290963
+    second: GhostRecoveringState_67
+  - first:
+      213: 2274611373121162422
+    second: GhostRecoveringState_68
+  - first:
+      213: -9038644094446246921
+    second: GhostRecoveringState_69
+  - first:
+      213: 1756469645652266001
+    second: GhostRecoveringState_70
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: GhostRecoveringState_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f779378013e71da42bf63b502744d371
+      internalID: -141128902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GhostRecoveringState_1
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8836b668577b7024c92cf51124399eb4
+      internalID: -911302301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GhostRecoveringState_2
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8868a0b3783c81e4eae938ff1d3024c9
+      internalID: -1851645832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GhostRecoveringState_3
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20ec28cf048450e4795af4b811322426
+      internalID: 30602192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GhostRecoveringState_4
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91811283a30bc3949989c95c73352cc7
+      internalID: 807378133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GhostRecoveringState_5
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2ec2dfb722532946974df17a339d5af
+      internalID: -415743814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GhostRecoveringState_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84d43c0cb8612934c8d9dabdb1b2bcc5
+      internalID: -1522524972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GhostRecoveringState_7
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d826742e0223634cb4496f167ff3730
+      internalID: 225882837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GhostRecoveringState_8
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c19b3e6f82d125b448c7d9f87c3e4e4d
+      internalID: 586639863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GhostRecoveringState_9
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a09e36926f359fb428672807afdaa9ee
+      internalID: -1906234412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GhostRecoveringState_10
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2813dfcca520d741927aa5fa61cd354
+      internalID: 1472689620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: fc577db757137ec4481493e073f6f900
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      GhostRecoveringState_0: -141128902
+      GhostRecoveringState_1: -911302301
+      GhostRecoveringState_10: 1472689620
+      GhostRecoveringState_2: -1851645832
+      GhostRecoveringState_3: 30602192
+      GhostRecoveringState_4: 807378133
+      GhostRecoveringState_5: -415743814
+      GhostRecoveringState_6: -1522524972
+      GhostRecoveringState_7: 225882837
+      GhostRecoveringState_8: 586639863
+      GhostRecoveringState_9: -1906234412
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

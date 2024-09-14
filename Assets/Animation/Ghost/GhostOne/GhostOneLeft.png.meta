@@ -1,0 +1,525 @@
+fileFormatVersion: 2
+guid: 1187f11504922a449a50e57634df8472
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -596777288759900800
+    second: GhostOneLeft_0
+  - first:
+      213: -8023726831711781875
+    second: GhostOneLeft_1
+  - first:
+      213: -7098018860300906329
+    second: GhostOneLeft_2
+  - first:
+      213: -8189516198080074055
+    second: GhostOneLeft_3
+  - first:
+      213: 148427824927322398
+    second: GhostOneLeft_4
+  - first:
+      213: 3030182226625011095
+    second: GhostOneLeft_5
+  - first:
+      213: -3115805643543045952
+    second: GhostOneLeft_6
+  - first:
+      213: 4512475468540118518
+    second: GhostOneLeft_7
+  - first:
+      213: -5185194223313807105
+    second: GhostOneLeft_8
+  - first:
+      213: -1494525297060465531
+    second: GhostOneLeft_9
+  - first:
+      213: -5409771153676416779
+    second: GhostOneLeft_10
+  - first:
+      213: -8573929624366425798
+    second: GhostOneLeft_11
+  - first:
+      213: -7345458454458734358
+    second: GhostOneLeft_12
+  - first:
+      213: -2754937215947382693
+    second: GhostOneLeft_13
+  - first:
+      213: -3934867746905555279
+    second: GhostOneLeft_14
+  - first:
+      213: 201882730531036038
+    second: GhostOneLeft_15
+  - first:
+      213: 972126194715219730
+    second: GhostOneLeft_16
+  - first:
+      213: 5946605462401160166
+    second: GhostOneLeft_17
+  - first:
+      213: 5295797092392225338
+    second: GhostOneLeft_18
+  - first:
+      213: -6835876983905462059
+    second: GhostOneLeft_19
+  - first:
+      213: 3445505966207651231
+    second: GhostOneLeft_20
+  - first:
+      213: 6631424716623016092
+    second: GhostOneLeft_21
+  - first:
+      213: 8377263713739103329
+    second: GhostOneLeft_22
+  - first:
+      213: -5412365550609536419
+    second: GhostOneLeft_23
+  - first:
+      213: -3635941445505569098
+    second: GhostOneLeft_24
+  - first:
+      213: 150109532971796068
+    second: GhostOneLeft_25
+  - first:
+      213: 1905713427262117732
+    second: GhostOneLeft_26
+  - first:
+      213: 4756284017710242863
+    second: GhostOneLeft_27
+  - first:
+      213: 8690490214218305108
+    second: GhostOneLeft_28
+  - first:
+      213: 8939803282706294609
+    second: GhostOneLeft_29
+  - first:
+      213: -4494646758194917058
+    second: GhostOneLeft_30
+  - first:
+      213: -5429522236174332317
+    second: GhostOneLeft_31
+  - first:
+      213: 2061563101205707805
+    second: GhostOneLeft_32
+  - first:
+      213: -6883401200108424450
+    second: GhostOneLeft_33
+  - first:
+      213: 2803109084692757846
+    second: GhostOneLeft_34
+  - first:
+      213: -5544155343017213329
+    second: GhostOneLeft_35
+  - first:
+      213: -4510190903503607432
+    second: GhostOneLeft_36
+  - first:
+      213: 6896734044306819162
+    second: GhostOneLeft_37
+  - first:
+      213: -7570846801858088712
+    second: GhostOneLeft_38
+  - first:
+      213: -8612587648747249572
+    second: GhostOneLeft_39
+  - first:
+      213: 7327211654609557649
+    second: GhostOneLeft_40
+  - first:
+      213: 1600160863982514017
+    second: GhostOneLeft_41
+  - first:
+      213: 5710332693682746689
+    second: GhostOneLeft_42
+  - first:
+      213: -4539994057110732390
+    second: GhostOneLeft_43
+  - first:
+      213: -8393393992344610342
+    second: GhostOneLeft_44
+  - first:
+      213: 4829448657036152407
+    second: GhostOneLeft_45
+  - first:
+      213: -6311012311451811225
+    second: GhostOneLeft_46
+  - first:
+      213: 2675387759053846410
+    second: GhostOneLeft_47
+  - first:
+      213: -2786228109470572353
+    second: GhostOneLeft_48
+  - first:
+      213: -7505297285224853318
+    second: GhostOneLeft_49
+  - first:
+      213: 7347915404527247704
+    second: GhostOneLeft_50
+  - first:
+      213: -8137455656462973723
+    second: GhostOneLeft_51
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: GhostOneLeft_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6dc1a0f5d03ba8946bdde15dedfc7106
+      internalID: 697629139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GhostOneLeft_1
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50602bee117a5ed4c80ad59c0f58da92
+      internalID: 283042460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GhostOneLeft_2
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0d05ab3c7648d643a3610bbbdb40183
+      internalID: -2098869030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GhostOneLeft_3
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: edfc95fe4e927c54495fb10fe01bc95b
+      internalID: 2062666968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GhostOneLeft_4
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e80be2d6cd3e20a4fa504611410a6b64
+      internalID: 109428605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GhostOneLeft_5
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94ba5d3d4a6667548bc1fcca087fb6f6
+      internalID: -1157885663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GhostOneLeft_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 614ac48f66b4ad94299157e4358e68db
+      internalID: -1357680559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GhostOneLeft_7
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1056f5d1a2f5f44983ead006191d320
+      internalID: -660899925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GhostOneLeft_8
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 305c431ca9e37ee4bab1b514407c71f7
+      internalID: 1835015310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GhostOneLeft_9
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed82a73d87a8d384991e233e095fa9a3
+      internalID: 754195107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GhostOneLeft_10
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4faa4f4d14a70ac4d90aaf2225a2bf9b
+      internalID: 938740638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 414392972dec4c049baa5c6a6cda9ee6
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      GhostOneLeft_0: 697629139
+      GhostOneLeft_1: 283042460
+      GhostOneLeft_10: 938740638
+      GhostOneLeft_2: -2098869030
+      GhostOneLeft_3: 2062666968
+      GhostOneLeft_4: 109428605
+      GhostOneLeft_5: -1157885663
+      GhostOneLeft_6: -1357680559
+      GhostOneLeft_7: -660899925
+      GhostOneLeft_8: 1835015310
+      GhostOneLeft_9: 754195107
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
