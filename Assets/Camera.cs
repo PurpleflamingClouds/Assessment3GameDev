@@ -14,6 +14,8 @@ public class CameraTransition : MonoBehaviour
         {
             camBeginning.orthographic = false;
             camBeginning.fieldOfView = 90;
+
+            camBeginning.transform.position = new Vector3(4.2f, -6.86f, -10f);
         }
 
     }
