@@ -1,0 +1,525 @@
+fileFormatVersion: 2
+guid: e0fa44e500d055940a20ef4a45733605
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8345529649194522811
+    second: GhostOneRight_0
+  - first:
+      213: -4010796180153187524
+    second: GhostOneRight_1
+  - first:
+      213: -9061432020551018956
+    second: GhostOneRight_2
+  - first:
+      213: 3822509044335610171
+    second: GhostOneRight_3
+  - first:
+      213: 442203118442786498
+    second: GhostOneRight_4
+  - first:
+      213: -6124956193230151431
+    second: GhostOneRight_5
+  - first:
+      213: -3286650346833160851
+    second: GhostOneRight_6
+  - first:
+      213: 2603013171454811606
+    second: GhostOneRight_7
+  - first:
+      213: 5621592172950302099
+    second: GhostOneRight_8
+  - first:
+      213: 7802296015108635502
+    second: GhostOneRight_9
+  - first:
+      213: 1580806428362158450
+    second: GhostOneRight_10
+  - first:
+      213: -7116830233011574649
+    second: GhostOneRight_11
+  - first:
+      213: 3008794042871039032
+    second: GhostOneRight_12
+  - first:
+      213: 2579454793756714939
+    second: GhostOneRight_13
+  - first:
+      213: 197284700365379930
+    second: GhostOneRight_14
+  - first:
+      213: 5685840183914275642
+    second: GhostOneRight_15
+  - first:
+      213: -1278584032723609731
+    second: GhostOneRight_16
+  - first:
+      213: 302934012452302031
+    second: GhostOneRight_17
+  - first:
+      213: 3585139064484512874
+    second: GhostOneRight_18
+  - first:
+      213: 6400037912067942912
+    second: GhostOneRight_19
+  - first:
+      213: 1599864038426404795
+    second: GhostOneRight_20
+  - first:
+      213: -7058736160855728201
+    second: GhostOneRight_21
+  - first:
+      213: 8190231676284271224
+    second: GhostOneRight_22
+  - first:
+      213: 2287168099265886352
+    second: GhostOneRight_23
+  - first:
+      213: 5243669339131853284
+    second: GhostOneRight_24
+  - first:
+      213: 7170023008988020455
+    second: GhostOneRight_25
+  - first:
+      213: -5641714654579052999
+    second: GhostOneRight_26
+  - first:
+      213: -7381202364415485611
+    second: GhostOneRight_27
+  - first:
+      213: -12333157308246267
+    second: GhostOneRight_28
+  - first:
+      213: -8605674963930324583
+    second: GhostOneRight_29
+  - first:
+      213: 6257585271573994982
+    second: GhostOneRight_30
+  - first:
+      213: 4270735150507856007
+    second: GhostOneRight_31
+  - first:
+      213: 5294072064498860440
+    second: GhostOneRight_32
+  - first:
+      213: -4980407221159282735
+    second: GhostOneRight_33
+  - first:
+      213: -649787010990605135
+    second: GhostOneRight_34
+  - first:
+      213: -313536771936984216
+    second: GhostOneRight_35
+  - first:
+      213: -6023519008332699487
+    second: GhostOneRight_36
+  - first:
+      213: 5887750807146898207
+    second: GhostOneRight_37
+  - first:
+      213: -5628406535665720015
+    second: GhostOneRight_38
+  - first:
+      213: 3394281429785038377
+    second: GhostOneRight_39
+  - first:
+      213: -8138643035048558698
+    second: GhostOneRight_40
+  - first:
+      213: 3800574977756854979
+    second: GhostOneRight_41
+  - first:
+      213: 7507232783727767172
+    second: GhostOneRight_42
+  - first:
+      213: -5774815023851578450
+    second: GhostOneRight_43
+  - first:
+      213: -1866473670881159105
+    second: GhostOneRight_44
+  - first:
+      213: -1554659301717366754
+    second: GhostOneRight_45
+  - first:
+      213: -6848262594633836132
+    second: GhostOneRight_46
+  - first:
+      213: 4537746148029720110
+    second: GhostOneRight_47
+  - first:
+      213: -6108461838887362099
+    second: GhostOneRight_48
+  - first:
+      213: -428932226180455719
+    second: GhostOneRight_49
+  - first:
+      213: 3456123566897455446
+    second: GhostOneRight_50
+  - first:
+      213: -2612796552798535415
+    second: GhostOneRight_51
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: GhostOneRight_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c6bdea5c20218e49a8ee07ad11f4d63
+      internalID: 1630151040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GhostOneRight_1
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38ff014ee39e38d44ac50cab3a1be09f
+      internalID: -1383018802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GhostOneRight_2
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c648aa8744f700c4d916873257997582
+      internalID: 1844192116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GhostOneRight_3
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 397d44b358eafcf41a517aacf7548601
+      internalID: 2041193360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GhostOneRight_4
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eef3d15e04adb7a4095ac2e00ef66832
+      internalID: -1353459050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GhostOneRight_5
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78b94ac322dc10d4ba169953ee59dd14
+      internalID: -988540072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GhostOneRight_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c29900ab94e28b4aac7bc3f58f325a7
+      internalID: 1564611913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GhostOneRight_7
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 649372fc87b0d314081b5136a0f71496
+      internalID: -689123092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GhostOneRight_8
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6eb73571db13728429f21ee99b232a4e
+      internalID: 277502360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GhostOneRight_9
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9269ff1404a23844ba0f4a106f1e2cbb
+      internalID: 1173325124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GhostOneRight_10
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6070ebe07ba8c4e49bde16bfa04417e6
+      internalID: -1003444506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: cc9a52084b2ec764cb3e4a3a35e4d90c
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      GhostOneRight_0: 1630151040
+      GhostOneRight_1: -1383018802
+      GhostOneRight_10: -1003444506
+      GhostOneRight_2: 1844192116
+      GhostOneRight_3: 2041193360
+      GhostOneRight_4: -1353459050
+      GhostOneRight_5: -988540072
+      GhostOneRight_6: 1564611913
+      GhostOneRight_7: -689123092
+      GhostOneRight_8: 277502360
+      GhostOneRight_9: 1173325124
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,468 @@
+fileFormatVersion: 2
+guid: bc1e952c78c6e0d45b54e5e303ff170b
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4157099846765190907
+    second: GhostFourUp_0
+  - first:
+      213: -3197683120141679795
+    second: GhostFourUp_1
+  - first:
+      213: -6143317138030000767
+    second: GhostFourUp_2
+  - first:
+      213: -8099868713924223823
+    second: GhostFourUp_3
+  - first:
+      213: 4768166075872908257
+    second: GhostFourUp_4
+  - first:
+      213: -2778982374872526129
+    second: GhostFourUp_5
+  - first:
+      213: -1181024832634696854
+    second: GhostFourUp_6
+  - first:
+      213: -1919547961416452796
+    second: GhostFourUp_7
+  - first:
+      213: -8147032080786402646
+    second: GhostFourUp_8
+  - first:
+      213: -1303736038914918908
+    second: GhostFourUp_9
+  - first:
+      213: 8662451556996946769
+    second: GhostFourUp_10
+  - first:
+      213: 3766030586395094429
+    second: GhostFourUp_11
+  - first:
+      213: -2842703779426968153
+    second: GhostFourUp_12
+  - first:
+      213: 4848478836693341406
+    second: GhostFourUp_13
+  - first:
+      213: -5563890195487251338
+    second: GhostFourUp_14
+  - first:
+      213: 3827871563309471834
+    second: GhostFourUp_15
+  - first:
+      213: -8672941146095853074
+    second: GhostFourUp_16
+  - first:
+      213: -5200249096915131589
+    second: GhostFourUp_17
+  - first:
+      213: -3960068856105608606
+    second: GhostFourUp_18
+  - first:
+      213: -1798874213393668124
+    second: GhostFourUp_19
+  - first:
+      213: -5656000779648499155
+    second: GhostFourUp_20
+  - first:
+      213: -3142421345177934663
+    second: GhostFourUp_21
+  - first:
+      213: 6840477560582202493
+    second: GhostFourUp_22
+  - first:
+      213: -4377088692862520396
+    second: GhostFourUp_23
+  - first:
+      213: -1054454719802254731
+    second: GhostFourUp_24
+  - first:
+      213: -5594696526159939213
+    second: GhostFourUp_25
+  - first:
+      213: 5054296527028297277
+    second: GhostFourUp_26
+  - first:
+      213: 8967973678147671389
+    second: GhostFourUp_27
+  - first:
+      213: 8948449955610145452
+    second: GhostFourUp_28
+  - first:
+      213: 7630926082064358309
+    second: GhostFourUp_29
+  - first:
+      213: 5425772904599469565
+    second: GhostFourUp_30
+  - first:
+      213: 3651053325009936081
+    second: GhostFourUp_31
+  - first:
+      213: 394471369228763888
+    second: GhostFourUp_32
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: GhostFourUp_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd1551b349ec8284b8560aae46aaa0a2
+      internalID: -13345584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GhostFourUp_1
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e3bee2300a2260438ad59f34256aec4
+      internalID: -635522727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GhostFourUp_2
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfb273620bb36424e8396cec8a487904
+      internalID: -726496575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GhostFourUp_3
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa9fab6a5384a7542b362931d6ca37c9
+      internalID: -937178584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GhostFourUp_4
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eff48c5eb3e0c87448d84d9250908f3f
+      internalID: 947437212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GhostFourUp_5
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cdc125938afbc5343a57d5c5cabd1827
+      internalID: 1741481223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GhostFourUp_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 129ba8ab385f90c468e4ba113bd4e71a
+      internalID: 83376547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GhostFourUp_7
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 329855cd60bcc1744be2f622098e6a4f
+      internalID: 2106651957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GhostFourUp_8
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 141dec6d9a9d6e54cb3dfd638fdbf9d0
+      internalID: 697530736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GhostFourUp_9
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b13521ba14587548b4e00510c97e800
+      internalID: 649793003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GhostFourUp_10
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c51b4099941d684c8d039b047d78654
+      internalID: 1423627061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 20d0d045390e3a54c91b551b32c8a0ec
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      GhostFourUp_0: -13345584
+      GhostFourUp_1: -635522727
+      GhostFourUp_10: 1423627061
+      GhostFourUp_2: -726496575
+      GhostFourUp_3: -937178584
+      GhostFourUp_4: 947437212
+      GhostFourUp_5: 1741481223
+      GhostFourUp_6: 83376547
+      GhostFourUp_7: 2106651957
+      GhostFourUp_8: 697530736
+      GhostFourUp_9: 649793003
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
