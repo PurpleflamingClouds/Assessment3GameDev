@@ -5,15 +5,6 @@ TextureImporter:
   - first:
       213: 2474875571861646056
     second: T-Junction(7)_0
-  - first:
-      213: -8839586369846729468
-    second: T-Junction(7)_1
-  - first:
-      213: -3546060101606971880
-    second: T-Junction(7)_2
-  - first:
-      213: -6191454490716123919
-    second: T-Junction(7)_3
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -55,7 +46,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -126,9 +117,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 37
-        width: 24
-        height: 27
+        y: 0
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -142,84 +133,17 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
-    - serializedVersion: 2
-      name: T-Junction(7)_1
-      rect:
-        serializedVersion: 2
-        x: 39
-        y: 38
-        width: 25
-        height: 26
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 405a6efd70b735580800000000000000
-      internalID: -8839586369846729468
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: T-Junction(7)_2
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 0
-        width: 24
-        height: 27
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 816e78b102dd9cec0800000000000000
-      internalID: -3546060101606971880
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: T-Junction(7)_3
-      rect:
-        serializedVersion: 2
-        x: 39
-        y: 0
-        width: 25
-        height: 26
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 1fc4ed5c1f8831aa0800000000000000
-      internalID: -6191454490716123919
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 5e97eb03825dee720800000000000000
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable:
-      T-Junction(7)_0: 2474875571861646056
-      T-Junction(7)_1: -8839586369846729468
-      T-Junction(7)_2: -3546060101606971880
-      T-Junction(7)_3: -6191454490716123919
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
