@@ -1,21 +1,21 @@
 using System.Collections;
 using UnityEngine;
 
-public class PacStudentMovement : MonoBehaviour
+public class AnimationBoarder : MonoBehaviour
 {
     private float speed = 1.0f;
     private Vector3[] positions;
     private int currentPoint = 0;
-    public AudioSource audioSource;
+
 
     void Start()
     {
 
         positions = new Vector3[4];
-        positions[0] = new Vector3(-4.87f, 1.55f, 0f);
-        positions[1] = new Vector3(-1.64f, 1.55f, 0f);
-        positions[2] = new Vector3(-1.64f, -0.69f, 0f);
-        positions[3] = new Vector3(-4.91f, -0.54f, 0f);
+        positions[0] = new Vector3(-10.5f, 4.0f, 0f);
+        positions[1] = new Vector3(10.5f, 4.0f, 0f);
+        positions[2] = new Vector3(10.50f, -4.0f, 0f);
+        positions[3] = new Vector3(-10.51f, -4.0f, 0f);
         StartCoroutine(MoveInClockwise());
     }
 
@@ -26,9 +26,6 @@ public class PacStudentMovement : MonoBehaviour
 
             Vector3 startPoint = positions[currentPoint];
             Vector3 endPoint = positions[(currentPoint + 1) % 4];
-
-
-            StartCoroutine(MovingAudio());
 
 
             yield return StartCoroutine(MoveToPosition(startPoint, endPoint));
@@ -56,15 +53,5 @@ public class PacStudentMovement : MonoBehaviour
         transform.position = endPoint;
     }
 
-    IEnumerator MovingAudio()
-    {
-        while (true)
-        {
-            if (audioSource != null && !audioSource.isPlaying)
-            {
-                audioSource.Play();
-            }
-            yield return new WaitForSeconds(0.5f);
-        }
-    }
+    
 }
