@@ -1,26 +1,45 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.SceneManagement; // Required for SceneManager
+using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class UIManager : MonoBehaviour
 {
 
+
     public void LoadFirstLevel()
     {
+        // Don't destroy this object when loading new scenes
         DontDestroyOnLoad(gameObject);
-        SceneManager.sceneLoaded += OnSceneLoaded; 
+        SceneManager.sceneLoaded += OnSceneLoaded;
         SceneManager.LoadScene("MainScene");
     }
 
-    private void OnSceneLoaded(Scene scene, LoadSceneMode mode)
+    public void OnSceneLoaded(Scene scene, LoadSceneMode mode)
     {
-        SceneManager.sceneLoaded -= OnSceneLoaded; 
+
+        if (scene.name == "MainScene")
+        {
+
+            GameObject quitButtonObject = GameObject.FindGameObjectWithTag("Quit");
+            if (quitButtonObject != null)
+            {
+
+                Button quitButton = quitButtonObject.GetComponent<Button>();
+                if (quitButton != null)
+                {
+                    quitButton.onClick.AddListener(QuitToStartScene);
+                    SceneManager.sceneLoaded -= OnSceneLoaded;
+                }
+            }
+        }
+
     }
 
-    // Update is called once per frame
-    void Update()
-    {
 
+    public void QuitToStartScene()
+    {
+        SceneManager.LoadScene("StartScene");
     }
 }
