@@ -2,15 +2,15 @@ using UnityEngine;
 
 public class PacStudentController : MonoBehaviour
 {
-    public float moveSpeed = 5f; // Speed at which PacStudent moves
-    private Vector3 targetPosition; // Target position to move towards
-    private bool isMoving; // Flag to check if PacStudent is currently moving
-    private int lastInput; // Store the last input direction as an integer
-    private Animator animator; // Reference to the Animator component
-    private AudioSource audioSource; // Reference to the AudioSource component
-    public ParticleSystem dirtTrail; // Reference to the Particle System
+    private float moveSpeed = 2f; 
+    private Vector3 targetPosition; 
+    private bool isMoving; 
+    private int lastInput; 
+    private Animator animator; 
+    private AudioSource audioSource; 
+    public ParticleSystem characterTrail; 
 
-    // Direction constants
+
     private const int IDLE = 0;
     private const int UP = 1;
     private const int DOWN = 2;
@@ -19,101 +19,101 @@ public class PacStudentController : MonoBehaviour
 
     void Start()
     {
-        targetPosition = transform.position; // Set the initial position
-        lastInput = IDLE; // Initialize last input as idle
-        animator = GetComponent<Animator>(); // Get the Animator component
-        audioSource = GetComponent<AudioSource>(); // Get the AudioSource component
+        targetPosition = transform.position; 
+        lastInput = IDLE; 
+        animator = GetComponent<Animator>(); 
+        audioSource = GetComponent<AudioSource>(); 
 
-        if (dirtTrail != null)
+        if (characterTrail != null)
         {
-            dirtTrail.Stop(); // Make sure the particle system is stopped at the start
+            characterTrail.Stop(); 
         }
     }
 
     void Update()
     {
-        GatherInput(); // Check for player input
+        GatherInput(); 
 
-        // Move towards the target position using Lerp
+ 
         if (isMoving)
         {
             MoveTowardsTarget();
-            PlayMovementAudio(); // Play audio if moving
-            PlayMovementParticles(); // Play particles if moving
+            PlayMovementAudio(); 
+            PlayMovementParticles(); 
         }
         else
         {
-            StopMovementAudio(); // Stop audio if not moving
-            StopMovementParticles(); // Stop particles if not moving
+            StopMovementAudio(); 
+            StopMovementParticles(); 
         }
 
-        UpdateAnimator(); // Update the animator based on movement
+        UpdateAnimator(); 
     }
 
-    // Public method to set a new target position
+
     public void MoveTo(Vector3 newPosition)
     {
         targetPosition = newPosition;
-        isMoving = true; // Start moving towards the new position
+        isMoving = true; 
     }
 
     private void MoveTowardsTarget()
     {
-        // Calculate step size based on speed and delta time
+
         float step = moveSpeed * Time.deltaTime;
 
-        // Move PacStudent towards the target position
+ 
         transform.position = Vector3.MoveTowards(transform.position, targetPosition, step);
 
-        // Check if PacStudent has reached the target position
+ 
         if (Vector3.Distance(transform.position, targetPosition) < 0.01f)
         {
-            // Snap to the target position and stop moving
+   
             transform.position = targetPosition;
-            isMoving = false; // Stop moving
+            isMoving = false; 
         }
     }
 
     private void GatherInput()
     {
-        // Gather input for movement
+
         if (Input.GetKeyDown(KeyCode.W))
         {
-            lastInput = UP; // Up
-            MoveTo(transform.position + Vector3.up); // Move up
+            lastInput = UP; 
+            MoveTo(transform.position + Vector3.up); 
         }
         else if (Input.GetKeyDown(KeyCode.A))
         {
-            lastInput = LEFT; // Left
-            MoveTo(transform.position + Vector3.left); // Move left
+            lastInput = LEFT; 
+            MoveTo(transform.position + Vector3.left);
         }
         else if (Input.GetKeyDown(KeyCode.S))
         {
-            lastInput = DOWN; // Down
-            MoveTo(transform.position + Vector3.down); // Move down
+            lastInput = DOWN; 
+            MoveTo(transform.position + Vector3.down);
         }
         else if (Input.GetKeyDown(KeyCode.D))
         {
-            lastInput = RIGHT; // Right
-            MoveTo(transform.position + Vector3.right); // Move right
+            lastInput = RIGHT; 
+            MoveTo(transform.position + Vector3.right);
         }
 
-        // Continue moving in the last input direction if the key is held down
+  
         if (isMoving && !Input.anyKeyDown)
         {
             switch (lastInput)
             {
                 case UP:
-                    MoveTo(transform.position + Vector3.up); // Keep moving up
+                    MoveTo(transform.position + Vector3.up); 
                     break;
                 case DOWN:
-                    MoveTo(transform.position + Vector3.down); // Keep moving down
+                    MoveTo(transform.position + Vector3.down); 
                     break;
                 case LEFT:
-                    MoveTo(transform.position + Vector3.left); // Keep moving left
+                    MoveTo(transform.position + Vector3.left); 
                     break;
                 case RIGHT:
-                    MoveTo(transform.position + Vector3.right); // Keep moving right
+                    MoveTo(transform.position + Vector3.right); 
                     break;
             }
         }
@@ -121,49 +121,49 @@ public class PacStudentController : MonoBehaviour
 
     private void UpdateAnimator()
     {
-        // Set the IsMoving parameter based on movement state
+
         animator.SetBool("IsMoving", isMoving);
 
-        // Update the Direction parameter based on last input
+
         if (isMoving)
         {
-            animator.SetInteger("Direction", lastInput); // Set direction based on integer value
+            animator.SetInteger("Direction", lastInput); 
         }
         else
         {
-            animator.SetInteger("Direction", IDLE); // Idle or reset to default
+            animator.SetInteger("Direction", IDLE); 
         }
     }
 
     private void PlayMovementAudio()
     {
-        if (!audioSource.isPlaying) // Check if audio is not already playing
+        if (!audioSource.isPlaying) 
         {
-            audioSource.Play(); // Play the audio
+            audioSource.Play(); 
         }
     }
 
     private void StopMovementAudio()
     {
-        if (audioSource.isPlaying) // Check if audio is playing
+        if (audioSource.isPlaying) 
         {
-            audioSource.Stop(); // Stop the audio
+            audioSource.Stop(); 
         }
     }
 
     private void PlayMovementParticles()
     {
-        if (dirtTrail != null && !dirtTrail.isPlaying) // Check if the particle system is not playing
+        if (characterTrail != null && !characterTrail.isPlaying) 
         {
-            dirtTrail.Play(); // Play the particle system
+            characterTrail.Play();
         }
     }
 
     private void StopMovementParticles()
     {
-        if (dirtTrail != null && dirtTrail.isPlaying) // Check if the particle system is playing
+        if (characterTrail != null && characterTrail.isPlaying)
         {
-            dirtTrail.Stop(); // Stop the particle system
+            characterTrail.Stop(); 
         }
     }
 }
