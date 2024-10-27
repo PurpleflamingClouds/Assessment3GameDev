@@ -6,6 +6,9 @@ TagManager:
   tags:
   - Quit
   - PacStudent
+  - Wall
+  - Teleporter
+  - TeleporterTwo
   layers:
   - Default
   - TransparentFX
