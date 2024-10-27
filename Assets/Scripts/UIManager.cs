@@ -10,7 +10,7 @@ public class UIManager : MonoBehaviour
 
     public void LoadFirstLevel()
     {
-        // Don't destroy this object when loading new scenes
+
         DontDestroyOnLoad(gameObject);
         SceneManager.sceneLoaded += OnSceneLoaded;
         SceneManager.LoadScene("MainScene");
