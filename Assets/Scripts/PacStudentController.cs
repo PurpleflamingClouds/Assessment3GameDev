@@ -1,3 +1,5 @@
+using System.Collections;
+using System.Collections.Generic;
 using UnityEngine;
 
 public class PacStudentController : MonoBehaviour
@@ -9,6 +11,8 @@ public class PacStudentController : MonoBehaviour
     private Animator animator;
     private AudioSource audioSource;
     public ParticleSystem characterTrail;
+    public AudioSource stopAudioSource; // New variable for stopping audio source
+    public ParticleSystem stopParticles; // New variable for stop particles
 
     private const int IDLE = 0;
     private const int UP = 1;
@@ -26,6 +30,16 @@ public class PacStudentController : MonoBehaviour
         if (characterTrail != null)
         {
             characterTrail.Stop();
+        }
+
+        if (stopParticles != null)
+        {
+            stopParticles.Stop(); // Ensure the stop particles are initially stopped
+        }
+
+        if (stopAudioSource != null)
+        {
+            stopAudioSource.Stop(); // Ensure the stop audio source is initially stopped
         }
     }
 
@@ -158,33 +172,58 @@ public class PacStudentController : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collider)
     {
-
         if (collider.CompareTag("Wall"))
         {
-            // wall things
-        }
+            // Stop animation and movement when colliding with a wall
+            targetPosition = transform.position; // Stop at current position
+            lastInput = IDLE; // Set last input to idle
+            isMoving = false; // Stop movement
+            animator.SetBool("IsMoving", false); // Stop animation
+            animator.SetInteger("Direction", IDLE); // Set animation direction to idle
 
+            // Play stop audio on first frame of collision
+            if (stopAudioSource != null && !stopAudioSource.isPlaying)
+            {
+                stopAudioSource.Play();
+            }
+
+            // Play stop particles immediately
+            if (stopParticles != null && !stopParticles.isPlaying)
+            {
+                stopParticles.Play();
+                StartCoroutine(StopParticlesAfterDelay(1f)); // Stop particles after 2 seconds
+            }
+        }
 
         if (collider.CompareTag("Teleporter"))
         {
-
             Teleport(new Vector3(11f, -6.8f, 0f));
         }
 
-
-
         if (collider.CompareTag("TeleporterTwo"))
         {
-
             Teleport(new Vector3(-4.63f, -6.8f, 0f));
         }
+    }
 
-
-
+    private IEnumerator StopParticlesAfterDelay(float delay)
+    {
+        yield return new WaitForSeconds(delay);
+        if (stopParticles != null)
+        {
+            stopParticles.Stop();
+        }
     }
 
     private void Teleport(Vector3 newPosition)
     {
-        transform.position = newPosition; 
+        transform.position = newPosition;
+        isMoving = false; // Stop movement after teleporting
+        lastInput = IDLE;
+        targetPosition = newPosition; // Update the target position to the new position
+
+        // Update animator to idle after teleporting
+        animator.SetBool("IsMoving", false);
+        animator.SetInteger("Direction", IDLE);
     }
 }
