@@ -2,14 +2,14 @@ using UnityEngine;
 
 public class GhostController : MonoBehaviour
 {
-    private Animator animator; // Reference to the Animator component
-    private GhostTimer ghostTimer; // Reference to the GhostTimer
+    private Animator animator; 
+    private GhostTimer ghostTimer; 
 
     private void Start()
     {
-        // Get the Animator component attached to the ghost
+
         animator = GetComponent<Animator>();
-        ghostTimer = Object.FindFirstObjectByType<GhostTimer>(); // Find the GhostTimer instance
+        ghostTimer = Object.FindFirstObjectByType<GhostTimer>(); 
     }
 
     public void SetScaredState()

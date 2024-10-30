@@ -12,7 +12,8 @@ public class PacStudentController : MonoBehaviour
     private AudioSource audioSource;
     public ParticleSystem characterTrail;
     public AudioSource stopAudioSource; 
-    public ParticleSystem stopParticles; 
+    public ParticleSystem stopParticles;
+    public ParticleSystem deathParticles;
     
     
     private int points = 10;
@@ -220,7 +221,8 @@ public class PacStudentController : MonoBehaviour
             {
                 ghostAnimator.SetScaredState();
 
- 
+
+
             }
 
         }
@@ -233,11 +235,32 @@ public class PacStudentController : MonoBehaviour
 
         if (collider.CompareTag("Ghost"))
         {
+            lastInput = IDLE;
+            isMoving = false;
+            animator.SetTrigger("Dead");
+            PlayDeathParticles();            
 
-            Teleport(new Vector3(6.3f, -1.5f, 0f));
+            Object.FindFirstObjectByType<LifeManager>().LoseLife();
+
+            StartCoroutine(TeleportAfterDelay(new Vector3(-5f, 1.5f, 0f), 1f));
+
         }
 
 
+    }
+
+
+
+    private void PlayDeathParticles()
+    {
+ 
+        if (deathParticles != null)
+        {
+            ParticleSystem particles = Instantiate(deathParticles, transform.position, Quaternion.identity);
+            particles.Play();
+
+            Destroy(particles.gameObject, 1f);
+        }
     }
 
     private IEnumerator StopParticlesAfterDelay(float delay)
@@ -248,6 +271,14 @@ public class PacStudentController : MonoBehaviour
             stopParticles.Stop();
         }
     }
+
+    private IEnumerator TeleportAfterDelay(Vector3 newPosition, float delay)
+    {
+        yield return new WaitForSeconds(delay); 
+        Teleport(newPosition);
+    }
+
+
 
     private void Teleport(Vector3 newPosition)
     {
