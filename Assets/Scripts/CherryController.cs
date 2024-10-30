@@ -6,7 +6,7 @@ public class CherryController : MonoBehaviour
 {
     public GameObject cherryPrefab;
     private float spawnInterval = 10f; 
-    private float movementSpeed = 2f; 
+    private float movementSpeed = 7f; 
     private Vector3 targetPosition;
     private int points = 100;
 

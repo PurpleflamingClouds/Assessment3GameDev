@@ -11,6 +11,7 @@ TagManager:
   - TeleporterTwo
   - PowerPallet
   - Pallet
+  - Ghost
   layers:
   - Default
   - TransparentFX

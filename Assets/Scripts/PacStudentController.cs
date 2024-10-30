@@ -11,8 +11,8 @@ public class PacStudentController : MonoBehaviour
     private Animator animator;
     private AudioSource audioSource;
     public ParticleSystem characterTrail;
-    public AudioSource stopAudioSource; // New variable for stopping audio source
-    public ParticleSystem stopParticles; // New variable for stop particles
+    public AudioSource stopAudioSource; 
+    public ParticleSystem stopParticles; 
     
     
     private int points = 10;
@@ -37,12 +37,12 @@ public class PacStudentController : MonoBehaviour
 
         if (stopParticles != null)
         {
-            stopParticles.Stop(); // Ensure the stop particles are initially stopped
+            stopParticles.Stop(); 
         }
 
         if (stopAudioSource != null)
         {
-            stopAudioSource.Stop(); // Ensure the stop audio source is initially stopped
+            stopAudioSource.Stop(); 
         }
     }
 
@@ -177,24 +177,24 @@ public class PacStudentController : MonoBehaviour
     {
         if (collider.CompareTag("Wall"))
         {
-            // Stop animation and movement when colliding with a wall
-            targetPosition = transform.position; // Stop at current position
-            lastInput = IDLE; // Set last input to idle
-            isMoving = false; // Stop movement
-            animator.SetBool("IsMoving", false); // Stop animation
-            animator.SetInteger("Direction", IDLE); // Set animation direction to idle
+      
+            targetPosition = transform.position;
+            lastInput = IDLE; 
+            isMoving = false; 
+            animator.SetBool("IsMoving", false);
+            animator.SetInteger("Direction", IDLE); 
 
-            // Play stop audio on first frame of collision
+   
             if (stopAudioSource != null && !stopAudioSource.isPlaying)
             {
                 stopAudioSource.Play();
             }
 
-            // Play stop particles immediately
+        
             if (stopParticles != null && !stopParticles.isPlaying)
             {
                 stopParticles.Play();
-                StartCoroutine(StopParticlesAfterDelay(1f)); // Stop particles after 2 seconds
+                StartCoroutine(StopParticlesAfterDelay(1f)); 
             }
         }
 
@@ -212,12 +212,29 @@ public class PacStudentController : MonoBehaviour
         {
             Destroy(collider.gameObject);
             BackgroundMusicManager.Instance.PlayScaredMusic();
+            BackgroundMusicManager.Instance.PlayScaredMusic(); 
+
+
+            GhostController ghostAnimator = Object.FindFirstObjectByType<GhostController>();
+            if (ghostAnimator != null)
+            {
+                ghostAnimator.SetScaredState();
+
+ 
+            }
+
         }
 
         if (collider.CompareTag("Pallet"))
         {
             PointsManager.Instance.AddPoints(points);
             Destroy(collider.gameObject);
+        }
+
+        if (collider.CompareTag("Ghost"))
+        {
+
+            Teleport(new Vector3(6.3f, -1.5f, 0f));
         }
 
 
