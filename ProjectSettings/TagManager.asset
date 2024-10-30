@@ -9,6 +9,8 @@ TagManager:
   - Wall
   - Teleporter
   - TeleporterTwo
+  - PowerPallet
+  - Pallet
   layers:
   - Default
   - TransparentFX

@@ -13,6 +13,9 @@ public class PacStudentController : MonoBehaviour
     public ParticleSystem characterTrail;
     public AudioSource stopAudioSource; // New variable for stopping audio source
     public ParticleSystem stopParticles; // New variable for stop particles
+    
+    
+    private int points = 10;
 
     private const int IDLE = 0;
     private const int UP = 1;
@@ -204,6 +207,20 @@ public class PacStudentController : MonoBehaviour
         {
             Teleport(new Vector3(-4.63f, -6.8f, 0f));
         }
+
+        if (collider.CompareTag("PowerPallet"))
+        {
+            Destroy(collider.gameObject);
+            BackgroundMusicManager.Instance.PlayScaredMusic();
+        }
+
+        if (collider.CompareTag("Pallet"))
+        {
+            PointsManager.Instance.AddPoints(points);
+            Destroy(collider.gameObject);
+        }
+
+
     }
 
     private IEnumerator StopParticlesAfterDelay(float delay)
@@ -218,12 +235,8 @@ public class PacStudentController : MonoBehaviour
     private void Teleport(Vector3 newPosition)
     {
         transform.position = newPosition;
-        isMoving = false; // Stop movement after teleporting
-        lastInput = IDLE;
-        targetPosition = newPosition; // Update the target position to the new position
 
-        // Update animator to idle after teleporting
-        animator.SetBool("IsMoving", false);
-        animator.SetInteger("Direction", IDLE);
+        targetPosition = newPosition; 
+
     }
 }

@@ -8,6 +8,7 @@ public class CherryController : MonoBehaviour
     private float spawnInterval = 10f; 
     private float movementSpeed = 2f; 
     private Vector3 targetPosition;
+    private int points = 100;
 
     private void Start()
     {
@@ -71,7 +72,7 @@ public class CherryController : MonoBehaviour
 
         if (collision.gameObject.CompareTag("PacStudent"))
         {
-
+            PointsManager.Instance.AddPoints(points);
             Destroy(gameObject); 
         }
     }
