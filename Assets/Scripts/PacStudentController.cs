@@ -16,7 +16,7 @@ public class PacStudentController : MonoBehaviour
     public ParticleSystem deathParticles;
     
     
-    private int points = 10;
+    private int points;
 
     private const int IDLE = 0;
     private const int UP = 1;
@@ -221,29 +221,40 @@ public class PacStudentController : MonoBehaviour
             {
                 ghostAnimator.SetScaredState();
 
-
-
             }
 
         }
 
-        if (collider.CompareTag("Pallet"))
-        {
-            PointsManager.Instance.AddPoints(points);
-            Destroy(collider.gameObject);
-        }
 
         if (collider.CompareTag("Ghost"))
         {
-            lastInput = IDLE;
-            isMoving = false;
-            animator.SetTrigger("Dead");
-            PlayDeathParticles();            
 
-            Object.FindFirstObjectByType<LifeManager>().LoseLife();
+            GhostController ghostController = collider.GetComponent<GhostController>();
+            if (ghostController != null && ghostController.IsScared()) 
+            {
 
-            StartCoroutine(TeleportAfterDelay(new Vector3(-5f, 1.5f, 0f), 1f));
+                StartCoroutine(ghostController.PlayDeathAnimation());
+                points = 300;
+                PointsManager.Instance.AddPoints(points);
 
+            }
+            else
+            {
+                lastInput = IDLE;
+                isMoving = false;
+                animator.SetTrigger("Dead");
+                PlayDeathParticles();
+
+                Object.FindFirstObjectByType<LifeManager>().LoseLife();
+                StartCoroutine(TeleportAfterDelay(new Vector3(-5f, 1.5f, 0f), 1f));
+            }
+        }
+
+        if (collider.CompareTag("Pallet"))
+        {
+            points = 10;
+            PointsManager.Instance.AddPoints(points);
+            Destroy(collider.gameObject);
         }
 
 

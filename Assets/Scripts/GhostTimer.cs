@@ -1,35 +1,53 @@
 using UnityEngine;
-using UnityEngine.UI; 
-using System.Collections;
+using UnityEngine.UI;
 
 public class GhostTimer : MonoBehaviour
 {
-    public Text timerText;
-    public GameObject timerUI;
+    public Text timerText;        
+    private float timeLeft = 0f;  
+    private bool isTimerRunning = false; 
+    private const string defaultText = "Ghost Scared Timer: 0"; 
 
     private void Start()
     {
-        timerUI.SetActive(false); 
+        timerText.text = defaultText; 
     }
 
-    public void StartTimer()
+ 
+    public void StartTimer(float duration)
     {
-        timerUI.SetActive(true); 
-        StartCoroutine(TimerCoroutine(10)); 
+        timeLeft = duration;
+        isTimerRunning = true;
+        UpdateTimerText();      
     }
 
-    private IEnumerator TimerCoroutine(float duration)
+    private void Update()
     {
-        float timeLeft = duration;
-
-        while (timeLeft > 0)
+        if (isTimerRunning)
         {
-            timerText.text = Mathf.Ceil(timeLeft).ToString();
             timeLeft -= Time.deltaTime;
-            yield return null; 
-        }
 
-        timerText.text = "0";
-        timerUI.SetActive(false);
+            if (timeLeft > 0)
+            {
+                UpdateTimerText();
+            }
+            else
+            {
+                EndTimer();
+            }
+        }
+    }
+
+
+    private void UpdateTimerText()
+    {
+        timerText.text = "Ghost Scared Timer: " + Mathf.Ceil(timeLeft).ToString();
+    }
+
+
+    private void EndTimer()
+    {
+        isTimerRunning = false;
+        timerText.text = defaultText; 
     }
 }

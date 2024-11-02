@@ -1,15 +1,17 @@
+using System.Collections;
+using System.Collections.Generic;
 using UnityEngine;
 
 public class GhostController : MonoBehaviour
 {
-    private Animator animator; 
-    private GhostTimer ghostTimer; 
+    private Animator animator;
+    private GhostTimer ghostTimer;
+    private bool isScared = false;
 
     private void Start()
     {
-
         animator = GetComponent<Animator>();
-        ghostTimer = Object.FindFirstObjectByType<GhostTimer>(); 
+        ghostTimer = Object.FindFirstObjectByType<GhostTimer>();
     }
 
     public void SetScaredState()
@@ -19,9 +21,11 @@ public class GhostController : MonoBehaviour
             animator.SetTrigger("Scared");
         }
 
+        isScared = true;
+
         if (ghostTimer != null)
         {
-            ghostTimer.StartTimer();
+            ghostTimer.StartTimer(10);
         }
     }
 
@@ -31,5 +35,27 @@ public class GhostController : MonoBehaviour
         {
             animator.SetTrigger("Walking");
         }
+
+        isScared = false; 
+    }
+
+    public bool IsScared() 
+    {
+        return isScared;
+    }
+
+    public IEnumerator PlayDeathAnimation()
+    {
+        if (animator != null)
+        {
+            animator.SetTrigger("Dead"); 
+        }
+
+
+        yield return new WaitForSeconds(5f);
+  
+
+        animator.SetTrigger("Idle");
+ 
     }
 }
