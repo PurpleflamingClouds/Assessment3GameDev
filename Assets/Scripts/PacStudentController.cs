@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class PacStudentController : MonoBehaviour
 {
@@ -11,12 +12,16 @@ public class PacStudentController : MonoBehaviour
     private Animator animator;
     private AudioSource audioSource;
     public ParticleSystem characterTrail;
-    public AudioSource stopAudioSource; 
+    public AudioSource stopAudioSource;
     public ParticleSystem stopParticles;
     public ParticleSystem deathParticles;
-    
-    
+
     private int points;
+    private int collectedPallets = 0;
+    private int remainingLives = 3;
+    private bool canInput = false; 
+
+    public Text gameOverText; 
 
     private const int IDLE = 0;
     private const int UP = 1;
@@ -31,6 +36,12 @@ public class PacStudentController : MonoBehaviour
         animator = GetComponent<Animator>();
         audioSource = GetComponent<AudioSource>();
 
+        // Hide the Game Over text at the start
+        if (gameOverText != null)
+        {
+            gameOverText.gameObject.SetActive(false);
+        }
+
         if (characterTrail != null)
         {
             characterTrail.Stop();
@@ -38,18 +49,23 @@ public class PacStudentController : MonoBehaviour
 
         if (stopParticles != null)
         {
-            stopParticles.Stop(); 
+            stopParticles.Stop();
         }
 
         if (stopAudioSource != null)
         {
-            stopAudioSource.Stop(); 
+            stopAudioSource.Stop();
         }
+
+        StartInputDelay(); // Start the input delay here
     }
 
     void Update()
     {
-        GatherInput();
+        if (canInput) // Only gather input if allowed
+        {
+            GatherInput();
+        }
 
         if (isMoving)
         {
@@ -64,6 +80,17 @@ public class PacStudentController : MonoBehaviour
         }
 
         UpdateAnimator();
+    }
+
+    private void StartInputDelay()
+    {
+        StartCoroutine(InputDelayCoroutine());
+    }
+
+    private IEnumerator InputDelayCoroutine()
+    {
+        yield return new WaitForSeconds(4f); // Wait for 4 seconds
+        canInput = true; // Allow input after the wait
     }
 
     public void MoveTo(Vector3 newPosition)
@@ -178,24 +205,21 @@ public class PacStudentController : MonoBehaviour
     {
         if (collider.CompareTag("Wall"))
         {
-      
             targetPosition = transform.position;
-            lastInput = IDLE; 
-            isMoving = false; 
+            lastInput = IDLE;
+            isMoving = false;
             animator.SetBool("IsMoving", false);
-            animator.SetInteger("Direction", IDLE); 
+            animator.SetInteger("Direction", IDLE);
 
-   
             if (stopAudioSource != null && !stopAudioSource.isPlaying)
             {
                 stopAudioSource.Play();
             }
 
-        
             if (stopParticles != null && !stopParticles.isPlaying)
             {
                 stopParticles.Play();
-                StartCoroutine(StopParticlesAfterDelay(1f)); 
+                StartCoroutine(StopParticlesAfterDelay(1f));
             }
         }
 
@@ -213,30 +237,23 @@ public class PacStudentController : MonoBehaviour
         {
             Destroy(collider.gameObject);
             BackgroundMusicManager.Instance.PlayScaredMusic();
-            BackgroundMusicManager.Instance.PlayScaredMusic(); 
-
+            BackgroundMusicManager.Instance.PlayScaredMusic();
 
             GhostController ghostAnimator = Object.FindFirstObjectByType<GhostController>();
             if (ghostAnimator != null)
             {
                 ghostAnimator.SetScaredState();
-
             }
-
         }
-
 
         if (collider.CompareTag("Ghost"))
         {
-
             GhostController ghostController = collider.GetComponent<GhostController>();
-            if (ghostController != null && ghostController.IsScared()) 
+            if (ghostController != null && ghostController.IsScared())
             {
-
                 StartCoroutine(ghostController.PlayDeathAnimation());
                 points = 300;
                 PointsManager.Instance.AddPoints(points);
-
             }
             else
             {
@@ -245,8 +262,18 @@ public class PacStudentController : MonoBehaviour
                 animator.SetTrigger("Dead");
                 PlayDeathParticles();
 
-                Object.FindFirstObjectByType<LifeManager>().LoseLife();
-                StartCoroutine(TeleportAfterDelay(new Vector3(-5f, 1.5f, 0f), 1f));
+                remainingLives--;
+
+
+                if (remainingLives <= 0)
+                {
+                    DisplayGameOver();
+                }
+                else
+                {
+                    Object.FindFirstObjectByType<LifeManager>().LoseLife();
+                    StartCoroutine(TeleportAfterDelay(new Vector3(-5f, 1.5f, 0f), 1f));
+                }
             }
         }
 
@@ -254,17 +281,31 @@ public class PacStudentController : MonoBehaviour
         {
             points = 10;
             PointsManager.Instance.AddPoints(points);
+            collectedPallets++; 
             Destroy(collider.gameObject);
+
+    
+            if (collectedPallets >= 212)
+            {
+                DisplayGameOver(); 
+            }
         }
 
-
+        StartInputDelay(); 
     }
 
-
+    private void DisplayGameOver()
+    {
+       
+        if (gameOverText != null)
+        {
+            gameOverText.gameObject.SetActive(true);
+            gameOverText.text = "Game Over";
+        }
+    }
 
     private void PlayDeathParticles()
     {
- 
         if (deathParticles != null)
         {
             ParticleSystem particles = Instantiate(deathParticles, transform.position, Quaternion.identity);
@@ -285,17 +326,13 @@ public class PacStudentController : MonoBehaviour
 
     private IEnumerator TeleportAfterDelay(Vector3 newPosition, float delay)
     {
-        yield return new WaitForSeconds(delay); 
+        yield return new WaitForSeconds(delay);
         Teleport(newPosition);
     }
-
-
 
     private void Teleport(Vector3 newPosition)
     {
         transform.position = newPosition;
-
-        targetPosition = newPosition; 
-
+        targetPosition = newPosition;
     }
 }
