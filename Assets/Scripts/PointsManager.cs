@@ -29,4 +29,18 @@ public class PointsManager : MonoBehaviour
     {
         pointsText.text = "Points: " + totalPoints;
     }
+
+    public void SaveHighScore()
+    {
+        int highScore = PlayerPrefs.GetInt("HighScore", 0);
+        if (totalPoints > highScore)
+        {
+            PlayerPrefs.SetInt("HighScore", totalPoints);
+        }
+    }
+
+    public int GetHighScore()
+    {
+        return PlayerPrefs.GetInt("HighScore", 0);
+    }
 }

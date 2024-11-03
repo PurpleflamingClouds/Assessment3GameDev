@@ -3,22 +3,23 @@ using UnityEngine.UI;
 
 public class GhostTimer : MonoBehaviour
 {
-    public Text timerText;        
-    private float timeLeft = 0f;  
-    private bool isTimerRunning = false; 
-    private const string defaultText = "Ghost Scared Timer: 0"; 
+    public Text timerText;
+    private float timeLeft = 0f;
+    private bool isTimerRunning = false;
+
 
     private void Start()
     {
-        timerText.text = defaultText; 
+
+        timerText.enabled = false;  
     }
 
- 
     public void StartTimer(float duration)
     {
         timeLeft = duration;
         isTimerRunning = true;
-        UpdateTimerText();      
+        timerText.enabled = true;   
+        UpdateTimerText();
     }
 
     private void Update()
@@ -38,16 +39,15 @@ public class GhostTimer : MonoBehaviour
         }
     }
 
-
     private void UpdateTimerText()
     {
         timerText.text = "Ghost Scared Timer: " + Mathf.Ceil(timeLeft).ToString();
     }
 
-
     private void EndTimer()
     {
         isTimerRunning = false;
-        timerText.text = defaultText; 
+
+        timerText.enabled = false;   
     }
 }
