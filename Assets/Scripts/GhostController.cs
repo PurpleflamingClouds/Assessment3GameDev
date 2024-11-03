@@ -16,46 +16,26 @@ public class GhostController : MonoBehaviour
 
     public void SetScaredState()
     {
-        if (animator != null)
-        {
-            animator.SetTrigger("Scared");
-        }
-
+        if (animator != null) animator.SetTrigger("Scared");
         isScared = true;
-
-        if (ghostTimer != null)
-        {
-            ghostTimer.StartTimer(10);
-        }
+        ghostTimer?.StartTimer(10);
     }
 
     public void SetWalkingState()
     {
-        if (animator != null)
-        {
-            animator.SetTrigger("Walking");
-        }
-
-        isScared = false; 
+        if (animator != null) animator.SetTrigger("Walking");
+        isScared = false;
     }
 
-    public bool IsScared() 
+    public bool IsScared()
     {
         return isScared;
     }
 
     public IEnumerator PlayDeathAnimation()
     {
-        if (animator != null)
-        {
-            animator.SetTrigger("Dead"); 
-        }
-
-
+        if (animator != null) animator.SetTrigger("Dead");
         yield return new WaitForSeconds(5f);
-  
-
         animator.SetTrigger("Idle");
- 
     }
 }

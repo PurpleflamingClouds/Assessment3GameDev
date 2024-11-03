@@ -10,19 +10,15 @@ public class BackgroundMusicManager : MonoBehaviour
 
     private float scaredMusicDuration = 10f; 
     private float timer = 0f; 
-    private bool isScaredMusicPlaying = false; 
+    private bool isScaredMusicPlaying = false;
 
     private void Awake()
     {
         if (Instance == null)
         {
             Instance = this;
-            DontDestroyOnLoad(gameObject);
         }
-        else
-        {
-            Destroy(gameObject);
-        }
+
     }
 
     private void Start()

@@ -12,6 +12,7 @@ TagManager:
   - PowerPallet
   - Pallet
   - Ghost
+  - Movement
   layers:
   - Default
   - TransparentFX

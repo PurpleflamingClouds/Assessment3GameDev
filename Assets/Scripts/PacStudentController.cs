@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class PacStudentController : MonoBehaviour
 {
@@ -19,9 +20,9 @@ public class PacStudentController : MonoBehaviour
     private int points;
     private int collectedPallets = 0;
     private int remainingLives = 3;
-    private bool canInput = false; 
+    private bool canInput = false;
 
-    public Text gameOverText; 
+    public Text gameOverText;
 
     private const int IDLE = 0;
     private const int UP = 1;
@@ -36,7 +37,6 @@ public class PacStudentController : MonoBehaviour
         animator = GetComponent<Animator>();
         audioSource = GetComponent<AudioSource>();
 
-        // Hide the Game Over text at the start
         if (gameOverText != null)
         {
             gameOverText.gameObject.SetActive(false);
@@ -57,12 +57,12 @@ public class PacStudentController : MonoBehaviour
             stopAudioSource.Stop();
         }
 
-        StartInputDelay(); // Start the input delay here
+        StartInputDelay();
     }
 
     void Update()
     {
-        if (canInput) // Only gather input if allowed
+        if (canInput)
         {
             GatherInput();
         }
@@ -233,6 +233,7 @@ public class PacStudentController : MonoBehaviour
             Teleport(new Vector3(-4.63f, -6.8f, 0f));
         }
 
+
         if (collider.CompareTag("PowerPallet"))
         {
             Destroy(collider.gameObject);
@@ -245,6 +246,7 @@ public class PacStudentController : MonoBehaviour
                 ghostAnimator.SetScaredState();
             }
         }
+
 
         if (collider.CompareTag("Ghost"))
         {
@@ -281,26 +283,27 @@ public class PacStudentController : MonoBehaviour
         {
             points = 10;
             PointsManager.Instance.AddPoints(points);
-            collectedPallets++; 
+            collectedPallets++;
             Destroy(collider.gameObject);
 
-    
+
             if (collectedPallets >= 212)
             {
-                DisplayGameOver(); 
+                DisplayGameOver();
             }
         }
 
-        StartInputDelay(); 
+        StartInputDelay();
     }
 
     private void DisplayGameOver()
     {
-       
+
         if (gameOverText != null)
         {
             gameOverText.gameObject.SetActive(true);
             gameOverText.text = "Game Over";
+            StartCoroutine(LoadMainSceneAfterDelay(4f));
         }
     }
 
@@ -314,6 +317,15 @@ public class PacStudentController : MonoBehaviour
             Destroy(particles.gameObject, 1f);
         }
     }
+
+
+    private IEnumerator LoadMainSceneAfterDelay(float delay)
+    {
+        yield return new WaitForSeconds(delay);
+        SceneManager.LoadScene("StartScene");
+    }
+
+
 
     private IEnumerator StopParticlesAfterDelay(float delay)
     {
