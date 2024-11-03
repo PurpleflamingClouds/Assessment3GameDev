@@ -3,7 +3,16 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Quit
+  - PacStudent
+  - Wall
+  - Teleporter
+  - TeleporterTwo
+  - PowerPallet
+  - Pallet
+  - Ghost
+  - Movement
   layers:
   - Default
   - TransparentFX
